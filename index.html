@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamplate 1</title>
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Using Normalize to Render all elements normally -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font awesome library -->
+    <!-- NOTE in normal situation we use non minified version to add or edit it first then we can modify it for production. -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Google font using work sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header start -->
+    <header>
+        <!-- acting as a container to manage all the elements inside and keep parent separate for design -->
+        <div class="container">
+            <img class="logo" src="./images/logo.png" alt="logo image">
+            <div class="links">
+                <span class="icon" id="iconContainer">
+                    <span id="topIcon"></span>
+                    <span id="middleIcon"></span>
+                    <span id="bottomIcon"></span>
+                </span>
+                <ul id="showList">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a id="contactLink" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Landing start -->
+    <section class="landing">
+        <div class="intro-text">
+            <h1>Hello There</h1>
+            <p>We are Sanad - super creative & minimal agency web template.</p>
+            <button id="actionBtn">Let's Speak!</button>
+        </div>
+    </section>
+    <!-- Landing end -->
+
+    <!-- back to top -->
+    <div class="top-icon" id="button">
+        <div class="circle">
+            <i class="fas fa-arrow-up"></i>
+        </div>
+    </div>
+    <!-- back to top -->
+
+    <!-- Features start -->
+    <section class="feature-container">
+        <main class="container">
+            <div class="features">
+                <i class="fas fa-lightbulb"></i>
+                <h2>Tell Us Your Idea</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta amet aspernatur cumque corporis et, expedita vitae. 
+                    Blanditiis mollitia architecto adipisci rem corrupti? Tempore perferendis enim blanditiis perspiciatis eligendi in repellendus.</p>
+            </div>
+            <div class="features">
+                <i class="fas fa-laptop-code"></i>
+                <h2>We Will Do All The Work</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit aliquid qui itaque fugiat dolorem vero odit, tenetur beatae. 
+                    Quas aspernatur modi qui consectetur nulla omnis commodi, reiciendis alias reprehenderit facere!</p>
+            </div>
+            <div class="features">
+                <i class="fas fa-globe-americas"></i>
+                <h2>Your Product Is Worldwide</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat excepturi sunt aperiam sit, inventore, reiciendis 
+                    numquam a molestiae quod earum harum rem, et doloribus optio. Harum consectetur iusto enim nisi?</p>
+            </div>
+        </main>
+    </section>
+    <!-- Features end -->
+
+    <!-- Services Start -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="special-heading">Services</h2>
+            <p>Don't be busy, Be Productive</p>
+            <!-- service content will include three columns -->
+            <div class="service-content">
+                <!-- First column -->
+                <div class="col">
+                    <!-- service one -->
+                    <div class="srv">
+                        <!-- include icon + h3 + text -->
+                        <i class="fas fa-pencil-ruler"></i>
+                        <div class="text">
+                            <h3>Graphic Design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis mollitia ipsum repellat necessitatibus quasi ex eaque excepturi neque sit possimus!</p>
+                        </div>
+                    </div>
+                    <!-- service two -->
+                    <div class="srv">
+                        <!-- include icon + h3 + text -->
+                        <i class="fas fa-palette"></i>
+                        <div class="text">
+                            <h3>UI & UX</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis mollitia ipsum repellat necessitatibus quasi ex eaque excepturi neque sit possimus!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- second column -->
+                <div class="col">
+                    <!-- service one -->
+                    <div class="srv">
+                        <!-- include icon + h3 + text -->
+                        <i class="fas fa-magic"></i>
+                        <div class="text">
+                            <h3>Web Design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis mollitia ipsum repellat necessitatibus quasi ex eaque excepturi neque sit possimus!</p>
+                        </div>
+                    </div>
+                    <!-- service two -->
+                    <div class="srv">
+                        <!-- include icon + h3 + text -->
+                        <i class="fas fa-desktop"></i>
+                        <div class="text">
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis mollitia ipsum repellat necessitatibus quasi ex eaque excepturi neque sit possimus!</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Third column -->
+                <div class="col">
+                    <div class="image service-image">
+                        <img src="./images/design.jpg" alt="design image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services End -->
+
+    <!-- Portfolio Start -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="special-heading">Portfolio</h2>
+            <p>If you do it right, It will last forever.</p>
+            <div class="portfolio-content">
+                <div class="card">
+                    <img src="./images/design1.jpg" alt="design image">
+                    <div class="info">
+                        <h3>Project Here</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nemo unde minima facilis? Dolore, fugit!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/design2.jpg" alt="design image">
+                    <div class="info">
+                        <h3>Project Here</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nemo unde minima facilis? Dolore, fugit!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/design3.jpg" alt="design image">
+                    <div class="info">
+                        <h3>Project Here</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nemo unde minima facilis? Dolore, fugit!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <!-- Portfolio End -->
+
+    <!-- About Start -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="special-heading">About</h2>
+            <p>Less is more work.</p>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="./images/about.jpg" alt="about section image">
+                </div>
+                <div class="about-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptatem vitae dolor amet suscipit dolore!</p>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ducimus, rerum tempore quasi sed consequuntur harum minus culpa 
+                        voluptatibus velit doloribus aperiam excepturi adipisci et accusamus repudiandae reprehenderit aut unde?</p>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <!-- About End -->
+
+    <!-- Contact Start -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="special-heading">Contact</h2>
+            <p>We are born to create.</p>
+            <div class="contact-content">
+                <p class="label">Feel free to drop us a line at:</p>
+                <a href="mailto:sanad@test.com?subject=Contact" class="link">sanad@test.com</a>
+                <div class="social">
+                    Find Us on Social Networks
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- Contact End -->
+
+    <!-- Footer -->
+    <footer>
+        &copy; <span id="year"></span> <span>Sanad</span> All Right Reserved.
+    </footer>
+    <!-- Footer -->
+
+
+<!-- js link -->
+    <script src="app.js"></script>
+</body>
+</html>
