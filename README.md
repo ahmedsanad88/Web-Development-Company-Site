@@ -24,6 +24,7 @@ The design is responsive for small & middle and bigger devices.
 `HTML5,
 CSS3,
 normalize,
+Font Awesome,
 javascript.`
 
 
